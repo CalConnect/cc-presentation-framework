@@ -8,7 +8,7 @@
 // ---------------------------------------------
 
 // Include theme-specific fonts
-@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro);
+@import url('https://fonts.googleapis.com/css?family=IBM+Plex+Mono|Source+Code+Pro|Source+Sans+Pro');
 
 $ccviolet: #485094;
 $blockMargin: 2vmin;
@@ -25,6 +25,7 @@ $mainFontSize: inherit;
 //$headingFont: 'Rams', 'Source Sans Pro', Helvetica, sans-serif;
 $mainFont: 'Source Sans Pro', Helvetica, sans-serif;
 $headingFont: 'Source Sans Pro', Helvetica, sans-serif;
+$monospaceFont: 'IBM Plex Mono', 'Source Code Pro', monospace;
 $headingTextShadow: none;
 $headingLetterSpacing: normal;
 $headingTextTransform: none;
