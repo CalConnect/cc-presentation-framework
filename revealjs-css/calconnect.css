@@ -708,6 +708,15 @@ html {
 /*******************************************************************************
  * Code Segments
  ******************************************************************************/
+pre, code {
+  font-family: "IBM Plex Mono", "Source Code Pro", monospace; }
+
+.reveal pre, .reveal code {
+  font-family: "IBM Plex Mono", "Source Code Pro", monospace;
+  font-weight: 500; }
+  .reveal pre b, .reveal code b {
+    font-weight: 700; }
+
 figure.code {
   display: flex;
   flex-direction: column;
@@ -748,4 +757,4 @@ figure.code pre + figcaption {
   color: #EEEDEF; }
 
 figure.code figcaption.path {
-  font-family: monospace; }
+  font-family: "IBM Plex Mono", "Source Code Pro", monospace; }

@@ -734,10 +734,22 @@ html {
 	}
 }
 
-
 /*******************************************************************************
  * Code Segments
  ******************************************************************************/
+pre, code {
+	font-family: $monospaceFont;
+}
+.reveal {
+	pre, code {
+		font-family: $monospaceFont;
+		font-weight: 500;
+		b {
+			font-weight: 700;
+		}
+	}
+}
+
 figure.code {
 	display: flex;
 	flex-direction: column;
@@ -781,5 +793,5 @@ figure.code pre + figcaption {
 	color: $light-grey;
 }
 figure.code figcaption.path {
-	font-family: monospace;
+	font-family: $monospaceFont;
 }
